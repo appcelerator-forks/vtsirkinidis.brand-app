@@ -1,0 +1,26 @@
+<Alloy>
+	<View id="menuView" class="container">
+		<ScrollView id="menuTable">
+			<View class="menuButton">
+				<Label textid="home"/>
+				<View pageid="welcome" onClick="menuAction"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="events"/>
+				<View pageid="events" onClick="menuAction"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="photos"/>
+				<View pageid="albums" onClick="menuAction"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="news"/>
+				<View pageid="news" onClick="menuAction"/>
+			</View>
+			<View class="menuButton">
+				<Label textid="aboutus"/>
+				<View pageid="aboutus" onClick="menuAction"/>
+			</View>
+    </ScrollView>
+	</View>
+</Alloy>

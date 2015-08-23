@@ -1,0 +1,24 @@
+"TextField": {
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	width: "80%",
+	height: "40dp"
+}
+
+"Label":{
+	color:Alloy.CFG.colors.text_color
+}
+
+".container":{
+	backgroundColor: Alloy.CFG.colors.colora,
+	layout:'vertical',
+	navBarHidden:true,
+	orientationModes:[Titanium.UI.PORTRAIT]
+}
+
+".customfont":{
+	font:{
+		fontFamily:'brandapp',
+		fontSize:'24dp'
+	}
+}

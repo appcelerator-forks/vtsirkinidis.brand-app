@@ -1,0 +1,18 @@
+"#container":{
+	width:Ti.UI.SIZE
+}
+
+"#titleContainer":{
+	width:Ti.UI.SIZE
+}
+
+"#title":{}
+
+"#iconContainer":{
+	width:Ti.UI.SIZE
+}
+
+"#icon":{
+	color:Alloy.CFG.colors.text_colorb,
+	text:Alloy.CFG.font.dot
+}
