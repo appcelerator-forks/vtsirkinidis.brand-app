@@ -16,11 +16,3 @@
 	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.NONE,
 	layout: 'vertical'
 }
-
-".menuButton":{
-	height:'50dp'
-}
-
-"Label":{
-	color:Alloy.CFG.colors.menu_text
-}

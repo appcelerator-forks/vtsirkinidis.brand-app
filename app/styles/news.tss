@@ -1,4 +1,20 @@
+"#container":{
+  layout:'composite'
+}
 
-".container" : {
-  backgroundColor:'blue'
+"#list":{
+  top:0,
+  bottom:'70dp',
+  layout:'vertical'
+}
+
+"#refresh":{
+  bottom:0,
+  height:'70dp',
+  backgroundColor:Alloy.CFG.colors.colorb
+}
+
+"#refresh_text":{
+  textid:'refresh',
+  color:Alloy.CFG.colors.text_colorb
 }

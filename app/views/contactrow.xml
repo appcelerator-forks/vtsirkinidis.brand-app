@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="container" onClick="doContact">
+		<Widget id="content" src="IconButton"/>
+	</View>
+</Alloy>

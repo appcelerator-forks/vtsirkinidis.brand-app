@@ -25,6 +25,7 @@ function init() {
     $.appFrame.addEventListener('androidback', back);
     dispatcher.on(events.APP_EXIT, exit);
 	disableActionBar();
+  attachFacebookProxy();
 	$.appFrame.open();
 }
 
@@ -41,6 +42,14 @@ function disableActionBar() {
 			}
 		}
 	});
+}
+
+function attachFacebookProxy() {
+	if (OS_IOS) {
+		return;
+	}
+	var fb = Alloy.Globals.facebook;
+	$.appFrame.fbProxy = fb.createActivityWorker({lifecycleContainer: $.appFrame});
 }
 
 function back() {

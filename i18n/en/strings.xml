@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
 
+	<string name="app_name">ESL</string>
+	<string name="facebook_app_id">176022206063286</string>
+
 	<!--GENERAL PROMPTS-->
 	<string name="generic_error">An unexpected error occured serving your request.</string>
 	<string name="internet_error">Your device is not connected to the internet.</string>
@@ -27,6 +30,7 @@
 	<string name="try_again">Something went wrong, please try again!</string>
 	<string name="today">Today</string>
 	<string name="never">Never</string>
+	<string name="refresh">Refresh</string>
 
 	<!--VALIDATION-->
 	<string name="email_validation">Please enter a valid email.</string>
@@ -34,15 +38,28 @@
 	<string name="max_length_validation">{name} should be {digits} characters/digits</string>
 	<string name="same_password_validation"> is not the same as </string>
 	<string name="digits_only_validation">{name} number should be {digits} digits</string>
-	
+
+	<!-- BRAND -->
+	<string name="brand_name">ESL</string>
+
 	<!-- MENU -->
-	<string name="home">Home</string>
-	<string name="events">Events</string>
-	<string name="photos">Photos</string>
-	<string name="news">News</string>
-	<string name="aboutus">About Us</string>
-	
-	<!-- Home -->
-	<string name="brand_name">Test</string>
+	<string name="welcome_label">Home</string>
+	<string name="event_label">Events</string>
+	<string name="albums_label">Photos</string>
+	<string name="news_label">News</string>
+	<string name="aboutus_label">About Us</string>
+	<string name="contactus_label">Contat us</string>
+
+	<!-- ABOUT US -->
+	<string name="about_us">The ESL was founded in 1996, and is the largest and oldest international eSports organization in the world. We have over 4.5 million registered members and almost 1 million registered teams, and are responsible for such huge eSports brands as Intel Extreme Masters, ESL One and National Championships in many countries. We run events large and small for StarCraft II, League of Legends, Dota 2, Counter Strike, Call of Duty, Battlefield 4, FIFA, World of Tanks and more, so whether you’re a seasoned pro or rising star, there’s no excuse not to get involved!</string>
+
+	<!-- CONTACT US -->
+	<string name="contact_email">Email us.</string>
+	<string name="contact_website">Visit us.</string>
+	<string name="contact_phone">Call us.</string>
+	<string name="contact_facebook">Give us a like.</string>
+
+	<!-- NEWS -->
+	<string name="could_not_fetch_posts">News are not available right now, please try again later.</string>
 
 </resources>

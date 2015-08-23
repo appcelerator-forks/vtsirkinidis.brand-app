@@ -1,0 +1,7 @@
+"#container":{
+  height:'50dp'
+}
+
+"#menuLabel":{
+  color:Alloy.CFG.colors.menu_text
+}

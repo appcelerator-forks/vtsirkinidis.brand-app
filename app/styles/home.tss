@@ -8,7 +8,7 @@
 	width:'50dp'
 }
 
-"#logo":{
+"#brand_name":{
 	textid:'brand_name',
 	color: Alloy.CFG.colors.text_colorb
 }

@@ -1,4 +1,8 @@
 <Alloy>
-	<View class="container">
+	<View id="container" class="container">
+		<ScrollView id="list"/>
+		<View id="refresh" onClick="doRefresh">
+			<Label id="refresh_text"/>
+		</View>
 	</View>
 </Alloy>

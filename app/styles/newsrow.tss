@@ -1,0 +1,22 @@
+"#container":{
+  height:'70dp',
+  layout:'horizontal'
+}
+
+"#left":{
+  width:'90%'
+}
+
+"#content":{
+  width:'95%',
+  height:'95%',
+  font:{fontSize:'14dp'}
+}
+
+"#right":{
+  width:Ti.UI.FILL
+}
+
+"#link":{
+  text:Alloy.CFG.font.website
+}

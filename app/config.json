@@ -5,17 +5,69 @@
         "com.caffeinalab.titanium.loader": "*"
     },
     "settings":{
-      "email":"info@inyourcity.gr",
-      "phone":"2310200002"
+      "menu":[{
+          "type":"welcome",
+          "label":"welcome_label"
+        }, {
+          "type":"events",
+          "label":"event_label",
+          "config":{
+            "facebookid":"36762739777"
+          }
+        }, {
+          "type":"albums",
+          "label":"albums_label",
+          "config":{
+            "facebookid":"36762739777",
+            "includelist":[],
+            "excludelist":[]
+          }
+        }, {
+          "type":"news",
+          "label":"news_label",
+          "config":{
+              "facebookid":"36762739777"
+          }
+        }, {
+          "type":"aboutus",
+          "label":"aboutus_label"
+        }, {
+          "type":"contactus",
+          "label":"contactus_label",
+          "config":{
+            "contacts":[
+                {
+                  "type":"email",
+                  "icon":"email",
+                  "label":"contact_email",
+                  "value":"press@eslgaming.com"
+                },{
+                  "type":"website",
+                  "value":"http://www.eslgaming.com",
+                  "icon":"website",
+                  "label":"contact_website"
+                },{
+                  "type":"phone",
+                  "value":"2310200002",
+                  "icon":"phone",
+                  "label":"contact_phone"
+                },{
+                  "type":"website",
+                  "value":"https://www.facebook.com/ESL",
+                  "icon":"facebook",
+                  "label":"contact_facebook"
+                }
+            ]
+          }
+        }
+      ]
     },
     "colors": {
-        "colora": "#e8e9ea",
-        "text_color": "#000000",
-
-        "colorb": "#5f5f5f",
+        "colora": "#ffffff",
+        "text_color": "#2a2b2a",
+        "colorb": "#009bdb",
         "text_colorb":"#ffffff",
-
-        "menu": "#5f5f5f",
+        "menu": "#009bdb",
         "menu_text":"#ffffff",
 
         "loader_back": "#000000",
@@ -29,6 +81,7 @@
       "email":"e",
       "facebook":"f",
       "pin": "g",
-      "navigation":"h"
+      "website":"h",
+      "navigation":"i"
     }
 }

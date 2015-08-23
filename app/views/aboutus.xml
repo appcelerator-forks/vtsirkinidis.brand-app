@@ -1,4 +1,7 @@
 <Alloy>
-	<View class="container">
+	<View id="container" class="container">
+		<View id="content">
+			<Label id="body"/>
+		</View>
 	</View>
-</Alloy>
+</Alloy></Alloy>

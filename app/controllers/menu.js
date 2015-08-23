@@ -1,11 +1,8 @@
-function goToController(controller) {
-  var nav = Alloy.Globals.nav;
-  nav.setFirstView({
-    controller: controller
+function render() {
+  var menu = Alloy.CFG.settings.menu;
+  _.each(menu, function(menuItem){
+    $.menuTable.add(Alloy.createController('menuItem', menuItem).getView());
   });
 }
 
-function menuAction(opts) {
-	var controller = opts.source.pageid;
-	goToController(controller);
-}
+render();

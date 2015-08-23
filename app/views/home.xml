@@ -5,7 +5,7 @@
 				<Label id="menuButton" class="customfont" onClick="menu_toggle"></Label>
 				<Label id="backButton" class="customfont" onClick="menu_back"></Label>
 			</View>
-			<Label id="logo"/>
+			<Label id="brand_name"/>
 		</View>
 		<View id="main_view">
 			<Require type="view" src="welcome"/>

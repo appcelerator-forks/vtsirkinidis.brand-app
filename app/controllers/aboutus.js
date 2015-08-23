@@ -1,1 +1,6 @@
-var args = arguments[0] || {};
+function render() {
+	var body = L('about_us');
+	$.body.setText(body);
+}
+
+render();
